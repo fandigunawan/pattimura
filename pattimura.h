@@ -1,3 +1,10 @@
+//=======================================================================
+// Copyright abeinoe 2015.
+// Distributed under the MIT License.
+// (See accompanying file LICENSE or copy at
+//  http://opensource.org/licenses/MIT)
+//=======================================================================
+
 #ifndef PATTIMURA_H
 #define PATTIMURA_H
 
@@ -56,4 +63,3 @@ short PATTIMURA_InitOFB_CBC_CTR(PATTIMURA_Context *ctx, const unsigned char *iv)
 short PATTIMURA_EncryptDecript(PATTIMURA_Context *ctx, unsigned char *out, unsigned char *in, short nblocks);
 
 #endif // PATTIMURA_H
-
